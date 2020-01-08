@@ -41,6 +41,10 @@ for (let index = 0; index < 9; index++) {
     pause(100)
     juan.x += 4
     pause(100)
+    Carlita.y += 4
+    pause(100)
+    Carlita.x += 4
+    pause(100)
 }
 // Stairs are going down
 for (let index = 0; index < 9; index++) {
@@ -48,16 +52,6 @@ for (let index = 0; index < 9; index++) {
     pause(100)
     juan.x += -4
     pause(100)
-}
-// Stairs are going down
-for (let index = 0; index < 9; index++) {
-    Carlita.y += 4
-    pause(100)
-    Carlita.x += 4
-    pause(100)
-}
-// Stairs are going up
-for (let index = 0; index < 9; index++) {
     Carlita.y += -4
     pause(100)
     Carlita.x += -4
